@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "slug": "rubber-gaskets",
+    "name": "Rubber Gaskets",
+    "category": "Sealing Components",
+    "shortDesc": "High-performance rubber gaskets for industrial sealing applications.",
+    "fullDesc": "Our rubber gaskets are manufactured from premium quality rubber compounds including EPDM, Nitrile, Neoprene, Silicone and Natural Rubber. They provide excellent sealing in pipelines, valves, pumps, flanges and pressure vessels across various industries.",
+    "materials": ["EPDM", "Nitrile", "Neoprene", "Silicone", "Natural Rubber"],
+    "applications": ["Pipelines", "Valves", "Pumps", "Flanges", "Pressure Vessels"],
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "slug": "o-rings",
+    "name": "O-Rings & Seals",
+    "category": "Sealing Components",
+    "shortDesc": "Precision O-rings and seals for critical sealing requirements.",
+    "fullDesc": "Our O-rings and seals are produced to exact tolerances for use in hydraulic, pneumatic and vacuum systems. Available in a wide range of sizes and rubber compounds to suit operating conditions from -60\u00b0C to +250\u00b0C.",
+    "materials": ["Viton", "NBR", "EPDM", "Silicone", "HNBR"],
+    "applications": ["Hydraulic Systems", "Pneumatic Systems", "Vacuum Systems", "Automotive", "Aerospace"],
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "slug": "rubber-bushes",
+    "name": "Rubber Bushes & Mounts",
+    "category": "Anti-Vibration",
+    "shortDesc": "Anti-vibration rubber bushes and mounts for machinery isolation.",
+    "fullDesc": "Rubber bushes and mounts engineered for vibration damping, noise reduction and shock absorption. Used extensively in automotive, heavy machinery and industrial equipment to improve service life and reduce noise.",
+    "materials": ["Natural Rubber", "Neoprene", "EPDM"],
+    "applications": ["Automotive", "Heavy Machinery", "Industrial Equipment", "Railways", "Construction"],
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "slug": "metal-rubber-bonded",
+    "name": "Metal-to-Rubber Bonded Parts",
+    "category": "Bonded Components",
+    "shortDesc": "Precision metal-to-rubber bonded components for complex assemblies.",
+    "fullDesc": "We specialise in bonding rubber to metal inserts to create composite components that combine the sealing and damping properties of rubber with the structural integrity of metal. Custom designed to your drawings.",
+    "materials": ["Natural Rubber", "Nitrile", "Neoprene", "Viton"],
+    "applications": ["Automotive", "Defence", "Aerospace", "Industrial Machinery"],
+    "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=600",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "slug": "moulded-hoses",
+    "name": "Moulded Rubber Hoses",
+    "category": "Hoses & Profiles",
+    "shortDesc": "Custom moulded rubber hoses for fluid transfer and automotive use.",
+    "fullDesc": "Moulded rubber hoses manufactured for specific shapes and angles required in automotive cooling systems, air intake systems, industrial fluid transfer and general engineering applications.",
+    "materials": ["EPDM", "Silicone", "Neoprene", "NBR"],
+    "applications": ["Automotive Cooling", "Air Intake", "Fluid Transfer", "Industrial Plants"],
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "slug": "extruded-profiles",
+    "name": "Extruded Rubber Profiles",
+    "category": "Hoses & Profiles",
+    "shortDesc": "Custom extruded rubber profiles and weather strips.",
+    "fullDesc": "We manufacture extruded rubber profiles in any cross-section shape for applications such as door and window seals, edge trims, weather strips, channel seals and decorative trims across automotive and construction industries.",
+    "materials": ["EPDM", "Neoprene", "Silicone", "Natural Rubber"],
+    "applications": ["Door & Window Seals", "Weather Strips", "Edge Trims", "Construction", "Automotive"],
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "slug": "diaphragms",
+    "name": "Rubber Diaphragms",
+    "category": "Speciality Products",
+    "shortDesc": "Precision rubber diaphragms for valves, pumps and pressure regulators.",
+    "fullDesc": "Rubber diaphragms manufactured for use in control valves, pressure regulators, pumps, actuators and metering devices. Available in flat, convoluted and fabric-reinforced designs to meet specific pressure and movement requirements.",
+    "materials": ["NBR", "EPDM", "Viton", "Silicone", "Neoprene"],
+    "applications": ["Control Valves", "Pressure Regulators", "Pumps", "Actuators", "Metering Devices"],
+    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "custom-moulded-parts",
+    "name": "Custom Moulded Rubber Parts",
+    "category": "Speciality Products",
+    "shortDesc": "Bespoke rubber mouldings manufactured to your specifications.",
+    "fullDesc": "We manufacture custom rubber mouldings using compression, transfer and injection moulding processes. From prototypes to high-volume production runs, we deliver parts to your exact drawings and specifications.",
+    "materials": ["All Rubber Compounds"],
+    "applications": ["General Industry", "Automotive", "Defence", "Medical", "Food Processing"],
+    "image": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=600",
+    "featured": false
+  }
+]
