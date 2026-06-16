@@ -1,0 +1,286 @@
+{
+  "company": {
+    "name": "RASHI MOLDEX",
+    "tagline": "Industrial Rubber Products",
+    "description": "Leading manufacturer of industrial rubber components delivering precision, durability, and custom engineered solutions.",
+    "address": "Plot 24, Industrial Area, Ankleshwar, Gujarat, India",
+    "email": "info@rashimoldex.com",
+    "phone": "+91 98765 43210",
+    "website": "https://rashimoldex.com",
+    "logo": "/images/logo.png"
+  },
+  "hero": {
+    "headline": "Premium Industrial Rubber Solutions",
+    "subheadline": "Custom molded rubber products for demanding industries with performance, reliability, and engineering excellence.",
+    "ctaText": "Explore Our Products",
+    "ctaLink": "/products",
+    "backgroundImage": "/images/other-products-1.jpg"
+  },
+  "about": {
+    "overview": "RASHI MOLDEX is a trusted industrial manufacturer specializing in rubber products engineered for heavy-duty applications. Our legacy of quality, innovation, and customer-centric service helps enterprises achieve higher uptime and safer operations.",
+    "vision": "To be the global benchmark in industrial rubber manufacturing through technology, responsiveness, and sustainable practices.",
+    "mission": "Deliver superior rubber solutions that protect equipment, extend service life, and improve operational efficiency for customers worldwide.",
+    "infrastructure": "A modern manufacturing facility with CNC tooling, compression molding, injection molding, and precision finishing ensures consistent quality and fast turnaround.",
+    "quality": "Strict quality assurance protocols, material traceability, and ISO-inspired inspection methods guarantee each component meets exacting industrial standards.",
+    "process": "From design validation and material selection to molding, curing, and final inspection, our process is built for reliability and repeatable performance."
+  },
+  "industries": [
+    {
+      "title": "Automotive",
+      "description": "Durable rubber components for engines, chassis, and vibration control.",
+      "icon": "bi-car-front"
+    },
+    {
+      "title": "Oil & Gas",
+      "description": "High-performance seals and gaskets designed for extreme conditions.",
+      "icon": "bi-droplet-half"
+    },
+    {
+      "title": "Construction",
+      "description": "Robust vibration mounts and pads for heavy machinery.",
+      "icon": "bi-building"
+    },
+    {
+      "title": "Manufacturing",
+      "description": "Precision molded parts for automation and material handling equipment.",
+      "icon": "bi-gear"
+    }
+  ],
+  "statistics": [
+    {
+      "label": "Years of Experience",
+      "value": "18+"
+    },
+    {
+      "label": "Product Varieties",
+      "value": "120+"
+    },
+    {
+      "label": "Global Clients",
+      "value": "35+"
+    },
+    {
+      "label": "Quality Certifications",
+      "value": "5"
+    }
+  ],
+  "products": [
+    {
+      "name": "Rubber Bushes",
+      "slug": "rubber-bushes",
+      "category": "Vibration Control",
+      "summary": "Engineered rubber bushes for isolating vibration and providing long service life in industrial assemblies.",
+      "image": "/images/mounts.jpg",
+      "features": [
+        "High vibration damping",
+        "Custom geometry",
+        "Oil and heat resistant",
+        "Low noise profile"
+      ],
+      "applications": [
+        "Gearboxes",
+        "Suspension systems",
+        "Motor mounts",
+        "Hydraulic equipment"
+      ],
+      "specifications": [
+        "Hardness: 40-90 Shore A",
+        "Temperature range: -40°C to 120°C",
+        "Materials: NBR, EPDM, Neoprene",
+        "Sizes available on request"
+      ]
+    },
+    {
+      "name": "Rubber Gaskets",
+      "slug": "rubber-gaskets",
+      "category": "Sealing Solutions",
+      "summary": "Precision-cut rubber gaskets for fluid sealing in industrial flanges, valves, and equipment housings.",
+      "image": "/images/2-wheeler-gaskets-2048x1365.jpg",
+      "features": [
+        "Leak-proof material",
+        "Custom shapes and thicknesses",
+        "Chemical resistance",
+        "Easy installation"
+      ],
+      "applications": [
+        "Pipelines",
+        "Storage tanks",
+        "Heat exchangers",
+        "Industrial pumps"
+      ],
+      "specifications": [
+        "Material: NBR, EPDM, Silicone",
+        "Max pressure: 16 bar",
+        "Temperature range: -50°C to 200°C",
+        "Thickness: 1mm to 20mm"
+      ]
+    },
+    {
+      "name": "O Rings",
+      "slug": "o-rings",
+      "category": "Sealing Solutions",
+      "summary": "Premium O-rings for static and dynamic sealing in hydraulic, pneumatic, and rotating equipment.",
+      "image": "/images/O-rings-scaled.jpg",
+      "features": [
+        "Precise tolerance control",
+        "Wide chemical compatibility",
+        "Excellent compression set resistance",
+        "Custom size availability"
+      ],
+      "applications": [
+        "Hydraulic cylinders",
+        "Pumps",
+        "Pneumatic valves",
+        "Automotive systems"
+      ],
+      "specifications": [
+        "Sizes: AS568 and custom",
+        "Materials: NBR, FKM, Silicone",
+        "Temperature range: -60°C to 250°C",
+        "Standard hardness: 70 Shore A"
+      ]
+    },
+    {
+      "name": "Rubber Seals",
+      "slug": "rubber-seals",
+      "category": "Sealing Solutions",
+      "summary": "Robust seals for preventing contamination, leaks, and wear in industrial machinery assemblies.",
+      "image": "/images/Rubber-Seals.png",
+      "features": [
+        "Long-term sealing",
+        "Custom profiles",
+        "Abrasion resistant",
+        "High-pressure rated"
+      ],
+      "applications": [
+        "Gearboxes",
+        "Motors",
+        "Compressors",
+        "Hydraulic systems"
+      ],
+      "specifications": [
+        "Material: NBR, Viton, Silicone",
+        "Max pressure: 20 bar",
+        "Temperature range: -30°C to 180°C",
+        "Service life rated"
+      ]
+    },
+    {
+      "name": "Rubber Bellows",
+      "slug": "rubber-bellows",
+      "category": "Protective Components",
+      "summary": "Flexible bellows to protect mechanical joints from dust, moisture, and mechanical stress.",
+      "image": "/images/Rubber-Bellows-1.jpg",
+      "features": [
+        "Flexible compression",
+        "Superior abrasion resistance",
+        "Custom lengths and diameters",
+        "Weatherproof performance"
+      ],
+      "applications": [
+        "Actuators",
+        "Steering systems",
+        "Pumps",
+        "Material handling equipment"
+      ],
+      "specifications": [
+        "Material: Neoprene, EPDM",
+        "Temperature range: -40°C to 120°C",
+        "Available with flange attachments",
+        "Custom designs supported"
+      ]
+    },
+    {
+      "name": "Anti Vibration Mounts",
+      "slug": "anti-vibration-mounts",
+      "category": "Vibration Control",
+      "summary": "Heavy-duty mounts engineered to reduce vibration transfer and improve equipment stability.",
+      "image": "/images/mounts.jpg",
+      "features": [
+        "High load capacity",
+        "Superior damping",
+        "Long fatigue life",
+        "Compact design"
+      ],
+      "applications": [
+        "Compressors",
+        "Generators",
+        "HVAC systems",
+        "Industrial motors"
+      ],
+      "specifications": [
+        "Load range: 5kg to 500kg",
+        "Material: Neoprene",
+        "Operating temperature: -20°C to 100°C",
+        "Available in stud and flange types"
+      ]
+    },
+    {
+      "name": "Rubber Pads",
+      "slug": "rubber-pads",
+      "category": "Protective Components",
+      "summary": "Durable rubber pads for shock absorption, floor protection, and anti-slip support.",
+      "image": "/images/other-products-1.jpg",
+      "features": [
+        "High load resistance",
+        "Anti-slip surface",
+        "Custom dimensions",
+        "Oil and water resistant"
+      ],
+      "applications": [
+        "Machine bases",
+        "Conveyor supports",
+        "Protective flooring",
+        "Equipment mounting"
+      ],
+      "specifications": [
+        "Thickness: 3mm to 25mm",
+        "Material: EPDM, NBR",
+        "Hardness: 50-90 Shore A",
+        "Custom cuts available"
+      ]
+    },
+    {
+      "name": "Custom Molded Rubber Parts",
+      "slug": "custom-molded-rubber-parts",
+      "category": "Custom Solutions",
+      "summary": "Tailor-made molded rubber components for specialized industrial applications and OEM projects.",
+      "image": "/images/moulded-hoses-1.jpg",
+      "features": [
+        "Precision molding",
+        "Multiple compound options",
+        "Rapid prototyping",
+        "Low volume and mass production"
+      ],
+      "applications": [
+        "Customized machinery",
+        "Sealing systems",
+        "Electrical insulation",
+        "Wear protection"
+      ],
+      "specifications": [
+        "Molding techniques: compression, transfer, injection",
+        "Material compatibility: NBR, EPDM, Silicone",
+        "Tolerance: +/- 0.2mm",
+        "Prototype support available"
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/rashi-moldex",
+      "icon": "bi-linkedin"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/rashi-moldex",
+      "icon": "bi-facebook"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/rashi-moldex",
+      "icon": "bi-instagram"
+    }
+  ]
+}

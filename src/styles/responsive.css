@@ -1,0 +1,86 @@
+.hero-section {
+  min-height: 560px;
+}
+
+.hero-section .hero-heading {
+  font-size: clamp(2.8rem, 5vw, 4rem);
+}
+
+.brand-name {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.site-footer .social-icons a {
+  transition: transform 0.2s ease;
+}
+
+.site-footer .social-icons a:hover {
+  transform: translateY(-2px);
+}
+
+.category-card,
+.feature-card,
+.industry-card,
+.stat-card,
+.section-card,
+.contact-card,
+.info-card {
+  min-height: 220px;
+}
+
+.product-detail-card img {
+  min-height: 340px;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    min-height: 520px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    gap: 0.75rem;
+  }
+
+  .hero-section {
+    min-height: 460px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .hero-section .overlay {
+    background: rgba(11, 17, 32, 0.7);
+  }
+
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+
+  .product-card img {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-card,
+  .category-card,
+  .industry-card,
+  .stat-card,
+  .section-card,
+  .contact-card,
+  .info-card {
+    min-height: auto;
+  }
+
+  .product-detail-card img {
+    min-height: 240px;
+  }
+}

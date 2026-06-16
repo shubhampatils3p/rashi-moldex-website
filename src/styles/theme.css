@@ -1,0 +1,262 @@
+:root {
+  --color-primary: #0F1F5A;
+  --color-secondary: #00C2FF;
+  --color-bg: #FFFFFF;
+  --color-surface: #F8FAFC;
+  --color-muted: #6B7280;
+  --color-text: #1F2937;
+  --color-border: #E5E7EB;
+  --shadow-soft: 0 24px 60px rgba(15, 31, 90, 0.08);
+  --transition-fast: 0.25s ease;
+}
+
+[data-theme='dark'] {
+  --color-bg: #0B1120;
+  --color-surface: #111B2F;
+  --color-muted: #94A3B8;
+  --color-text: #F8FAFC;
+  --color-border: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+a {
+  transition: color var(--transition-fast);
+}
+
+.navbar,
+.site-footer,
+.cta-card,
+.product-card,
+.info-card,
+.feature-card,
+.category-card,
+.industry-card,
+.stat-card,
+.section-card,
+.contact-card,
+.product-detail-card {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+.navbar {
+  background: rgba(15, 31, 90, 0.96) !important;
+}
+
+.navbar-brand .brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.navbar-brand .brand-name,
+.navbar-brand .brand-tagline {
+  color: #ffffff;
+}
+
+.navbar-brand .brand-tagline {
+  color: rgba(255, 255, 255, 0.82) !important;
+  font-size: 0.9rem;
+}
+
+.navbar .nav-link {
+  color: rgba(248, 250, 252, 0.9);
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ffffff;
+}
+
+.hero-section {
+  min-height: 680px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 17, 32, 0.55);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-heading {
+  max-width: 680px;
+}
+
+.eyebrow {
+  letter-spacing: 0.25em;
+  font-size: 0.8rem;
+  color: var(--color-secondary);
+}
+
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: rgba(248, 250, 252, 0.8);
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.hero-section p,
+.section-card p,
+.contact-card p,
+.feature-card p,
+.industry-card p,
+.info-card p {
+  color: var(--color-muted);
+}
+
+.hero-section .text-white,
+.hero-section .lead,
+.hero-section .eyebrow,
+.hero-section h1,
+.hero-section h2,
+.hero-section h3 {
+  color: #ffffff;
+}
+
+.product-card {
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+}
+
+.product-card img {
+  min-height: 220px;
+  object-fit: cover;
+}
+
+.feature-card,
+.category-card,
+.industry-card,
+.stat-card,
+.section-card,
+.contact-card,
+.info-card {
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.feature-card:hover,
+.category-card:hover,
+.industry-card:hover,
+.stat-card:hover,
+.section-card:hover,
+.contact-card:hover,
+.info-card:hover {
+  transform: translateY(-3px);
+}
+
+.feature-icon,
+.industry-icon {
+  font-size: 2rem;
+  color: var(--color-secondary);
+}
+
+.page-banner {
+  background: linear-gradient(135deg, rgba(15, 31, 90, 0.95), rgba(0, 194, 255, 0.95));
+}
+
+.page-banner h1,
+.page-banner p {
+  color: #ffffff;
+}
+
+.cta-section {
+  background: linear-gradient(135deg, rgba(15, 31, 90, 0.95), rgba(0, 194, 255, 0.9));
+}
+
+.cta-card {
+  background: rgba(15, 31, 90, 0.92);
+}
+
+.map-placeholder {
+  min-height: 260px;
+  background: linear-gradient(180deg, rgba(15, 31, 90, 0.98), rgba(0, 194, 255, 0.25));
+  position: relative;
+}
+
+.map-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 17, 32, 0.7);
+}
+
+.map-overlay > * {
+  position: relative;
+  z-index: 1;
+}
+
+.theme-toggle {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+
+.theme-toggle:hover {
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0d1a49;
+  border-color: #0d1a49;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #00aeda;
+  border-color: #00aeda;
+}
+
+.badge-secondary {
+  background-color: var(--color-secondary);
+}
+
+.contact-card,
+.section-card,
+.info-card,
+.feature-card,
+.category-card,
+.industry-card,
+.stat-card {
+  border: 1px solid var(--color-border);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+  }
+}
