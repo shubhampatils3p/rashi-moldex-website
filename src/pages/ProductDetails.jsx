@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import PageBanner from '../components/PageBanner.jsx';
 import { fetchConfig, findProductBySlug } from '../services/configService.js';
+import SEO from '../components/SEO.jsx';
 
 function ProductDetails() {
   const { slug } = useParams();
@@ -20,15 +21,64 @@ function ProductDetails() {
     return <div className="container py-5">Product not found.</div>;
   }
 
+  const siteBase = company?.website || 'https://rashimoldex.com';
+  const canonical = `${siteBase}/products/${product.slug}`;
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: [product.image],
+    description: product.summary,
+    brand: { "@type": "Organization", name: company?.name || 'RASHI MOLDEX' },
+    offers: { "@type": "Offer", availability: "https://schema.org/InStock", url: canonical }
+  };
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteBase },
+      { "@type": "ListItem", position: 2, name: "Products", item: `${siteBase}/products` },
+      { "@type": "ListItem", position: 3, name: product.name, item: canonical }
+    ]
+  };
+
   return (
     <main>
-      <PageBanner title={product.name} subtitle={product.summary} />
+      <SEO
+        title={`${product.name} | RASHI MOLDEX`}
+        description={product.summary}
+        image={product.image}
+        url={canonical}
+        canonical={canonical}
+        keywords={`${product.name}, ${product.category}, industrial rubber`}
+        productSchema={productSchema}
+        breadcrumb={breadcrumb}
+        pageType="product"
+      />
+      <PageBanner
+        title={product.name}
+        subtitle={product.summary}
+        breadcrumbs={[
+          { name: 'Home', item: siteBase },
+          { name: 'Products', item: `${siteBase}/products` },
+          { name: product.name, item: canonical },
+        ]}
+      />
       <section className="py-5">
         <div className="container">
           <div className="row g-4">
             <div className="col-lg-7">
               <div className="product-detail-card rounded-4 shadow-sm overflow-hidden">
-                <img loading="lazy" src={product.image} alt={product.name} className="img-fluid w-100" />
+                {(() => {
+                  let w, h;
+                  try {
+                    const m = product.image.match(/(\d+)x(\d+)/);
+                    if (m) { w = parseInt(m[1], 10); h = parseInt(m[2], 10); }
+                  } catch (e) {}
+                  return (
+                    <img loading="lazy" decoding="async" src={product.image} alt={product.name} className="img-fluid w-100" {...(w && h ? { width: w, height: h } : {})} />
+                  );
+                })()}
               </div>
             </div>
             <div className="col-lg-5">

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PageBanner from '../components/PageBanner.jsx';
 import { fetchConfig } from '../services/configService.js';
+import SEO from '../components/SEO.jsx';
 
 function About() {
   const [about, setAbout] = useState(null);
@@ -13,8 +14,17 @@ function About() {
     return <div className="container py-5">Loading...</div>;
   }
 
+  const siteUrl = 'https://rashimoldex.com/about';
+
   return (
     <main>
+      <SEO
+        title={`About RASHI MOLDEX | Industrial Rubber Manufacturer`}
+        description={about.overview}
+        url={siteUrl}
+        canonical={siteUrl}
+        keywords="about, rashi moldex, industrial rubber"
+      />
       <PageBanner title="About RASHI MOLDEX" subtitle="Industrial rubber manufacturing built for heavy industry." />
       <section className="py-5 bg-light">
         <div className="container">

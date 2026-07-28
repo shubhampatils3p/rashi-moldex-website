@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import PageBanner from '../components/PageBanner.jsx';
 import ProductGrid from '../components/ProductGrid.jsx';
 import { fetchConfig, getCategories } from '../services/configService.js';
+import SEO from '../components/SEO.jsx';
 
 function Products() {
   const [config, setConfig] = useState(null);
@@ -27,8 +28,17 @@ function Products() {
     return <div className="container py-5">Loading...</div>;
   }
 
+  const siteUrl = 'https://rashimoldex.com/products';
+
   return (
     <main>
+      <SEO
+        title={`Products | RASHI MOLDEX - Industrial Rubber Components`}
+        description={`Explore our product range: rubber gaskets, seals, o-rings, bellows, mounts and custom molded parts.`}
+        url={siteUrl}
+        canonical={siteUrl}
+        keywords="rubber products, gaskets, seals, o-rings, bellows"
+      />
       <PageBanner title="Our Products" subtitle="Explore premium industrial rubber components and sealing solutions." />
       <section className="py-5">
         <div className="container">

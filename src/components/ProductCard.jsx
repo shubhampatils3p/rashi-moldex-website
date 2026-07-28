@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function ProductCard({ product }) {
   return (
     <div className="card product-card border-0 shadow-sm h-100">
-      <img loading="lazy" src={product.image} className="card-img-top" alt={product.name} />
+      <img loading="lazy" decoding="async" src={product.image} className="card-img-top" alt={product.name} title={product.name} />
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{product.name}</h5>
         <p className="card-text text-muted">{product.summary}</p>

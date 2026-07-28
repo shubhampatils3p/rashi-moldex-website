@@ -12,10 +12,10 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark shadow-sm" role="navigation" aria-label="Main navigation">
       <div className="container">
-        <Link className="navbar-brand d-flex align-items-center gap-2" to="/">
-          <img src={company.logo || '/images/logo.png'} alt="Rashi Moldex" className="brand-logo" />
+        <Link className="navbar-brand d-flex align-items-center gap-2" to="/" aria-label="Rashi Moldex home">
+          <img loading="lazy" decoding="async" src={company.logo || '/images/logo.png'} alt="Rashi Moldex" className="brand-logo" width="120" height="48" />
           <div>
             <div className="brand-name">{company.name || 'RASHI MOLDEX'}</div>
             <small className="text-muted brand-tagline">Industrial Rubber Products</small>

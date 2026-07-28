@@ -5,6 +5,7 @@ import CTASection from '../components/CTASection.jsx';
 import ProductGrid from '../components/ProductGrid.jsx';
 import PageBanner from '../components/PageBanner.jsx';
 import { fetchConfig, getCategories } from '../services/configService.js';
+import SEO from '../components/SEO.jsx';
 
 function Home() {
   const [config, setConfig] = useState(null);
@@ -18,11 +19,20 @@ function Home() {
   }
 
   const { hero, about, industries, statistics, products } = config;
+  const siteUrl = config.company?.website || 'https://rashimoldex.com';
   const categories = getCategories(config);
   const featuredProducts = products.slice(0, 6);
 
   return (
     <main>
+      <SEO
+        title={`RASHI MOLDEX | ${hero.headline}`}
+        description={config.company?.description || hero.subheadline}
+        image={hero.backgroundImage}
+        url={siteUrl}
+        canonical={siteUrl}
+        keywords="rubber products, industrial rubber, gaskets, seals, o-rings"
+      />
       <Hero hero={hero} />
       <section className="py-5">
         <div className="container">
