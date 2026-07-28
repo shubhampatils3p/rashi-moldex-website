@@ -31,16 +31,16 @@ function Footer() {
           </div>
           <div className="col-md-4">
             <h6>Contact</h6>
-            <p className="mb-1"><i className="bi bi-telephone-fill me-2" />{company.phone || '+91 98765 43210'}</p>
-            <p className="mb-1"><i className="bi bi-envelope-fill me-2" />{company.email || 'info@rashimoldex.com'}</p>
+            <p className="mb-1"><i className="bi bi-telephone-fill me-2" />{company.phone || '+91 9146232193'}</p>
+            <p className="mb-1"><i className="bi bi-envelope-fill me-2" />{company.email || 'rashimoldex@gmail.com'}</p>
             <p className="mb-0"><i className="bi bi-geo-alt-fill me-2" />{company.address || 'Plot 24, Industrial Area, Ankleshwar, Gujarat'}</p>
-            <div className="social-icons mt-3">
+            {/* <div className="social-icons mt-3">
               {socialLinks.map((link) => (
                 <a key={link.platform} href={link.url} target="_blank" rel="noreferrer" className="text-light me-3 fs-5">
                   <i className={link.icon} aria-hidden="true" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="border-top mt-4 pt-3 text-center text-muted small">

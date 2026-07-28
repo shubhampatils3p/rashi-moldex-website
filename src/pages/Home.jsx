@@ -123,7 +123,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-5">
+      {/* <section className="py-5">
         <div className="container">
           <div className="text-center mb-5">
             <span className="eyebrow text-uppercase">Company Statistics</span>
@@ -140,7 +140,7 @@ function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <CTASection
         title="Ready to partner for your next rubber component project"
